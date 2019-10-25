@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D1C21</color>
+    <color name="colorPrimaryDark">#1D1C21</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroundApp">#1D1C21</color>
+    <color name="backgroundListItem">#222328</color>
+    <color name="titleTextOn">#888D90</color>
+    <color name="titleTextOff">#3C3B40</color>
+    <color name="priceNameText">#D8D9DA</color>
+    <color name="addToCartText">#181A19</color>
+    <color name="addToCartBackground">#E6A842</color>
+    <color name="addToFavoriteBackground">#CC1616</color>
+    <color name="deleteCartItemBackground">#9E1414</color>
+
+</resources>

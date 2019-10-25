@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SettingsActivity"
+    android:background="@color/backgroundApp">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <!--ITEMS-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!--Item 1-->
+        <LinearLayout
+            android:id="@+id/item_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:text="@string/item_1_text_1"
+                android:textColor="@color/priceNameText"/>
+        </LinearLayout>
+
+        <!--Item 2-->
+        <LinearLayout
+            android:id="@+id/item_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/item_2_text_1"
+                android:textColor="@color/priceNameText"/>
+            <ImageView
+                android:id="@+id/ship_to_image"
+                android:layout_width="44dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_ship_to_flag"/>
+        </LinearLayout>
+
+        <!--Item 3-->
+        <LinearLayout
+            android:id="@+id/item_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/item_3_text_1"
+                android:textColor="@color/priceNameText"/>
+        </LinearLayout>
+
+        <!--Item 4-->
+        <LinearLayout
+            android:id="@+id/item_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/item_4_text_1"
+                android:textColor="@color/priceNameText"/>
+        </LinearLayout>
+
+        <!--Item 5-->
+        <LinearLayout
+            android:id="@+id/item_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/item_5_text_1"
+                android:textColor="@color/priceNameText"/>
+        </LinearLayout>
+
+        <!--Item 6-->
+        <LinearLayout
+            android:id="@+id/item_6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/item_6_text_1"
+                android:textColor="@color/priceNameText"/>
+        </LinearLayout>
+
+        <!--Item 7-->
+        <LinearLayout
+            android:id="@+id/item_7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/item_7_text_1"
+                android:textColor="@color/priceNameText"/>
+        </LinearLayout>
+
+        <!--Item 8-->
+        <LinearLayout
+            android:id="@+id/item_8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/item_8_text_1"
+                android:textColor="@color/priceNameText"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

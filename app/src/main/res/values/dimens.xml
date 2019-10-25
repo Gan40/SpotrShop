@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!--RECYCLER VIEW ITEM-->
+    <dimen name="item_image_width">134dp</dimen>
+    <dimen name="item_image_height">102dp</dimen>
+
+    <!--DETAIL DIMEN-->
+    <dimen name="detail_image_height">256dp</dimen>
+    <dimen name="detail_image_width"></dimen>
+    <dimen name="detail_bottom_panel_height">68dp</dimen>
+    <dimen name="detail_bottom_panel_add_to_cart_height">60dp</dimen>
+    <dimen name="detail_bottom_panel_add_to_cart_width">152dp</dimen>
+
+    <!--SETTINGS ITEM DIMEN-->
+    <dimen name="settings_item_height">58dp</dimen>
+</resources>

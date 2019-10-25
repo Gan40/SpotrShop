@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Spotr Shop</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="tab_text_4">Tab 4</string>
+
+    <string name="item_1">Home</string>
+    <string name="item_2">Shopping Cart</string>
+    <string name="item_3">My Orders</string>
+    <string name="item_4">Favorites</string>
+    <string name="item_5">Settings</string>
+    <string name="item_6">Customer Service</string>
+    <string name="item_7">About Us</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="animImage">animImage</string>
+
+    <string name="detail_bottom_panel_text">Add To Cart</string>
+
+    <!--SETTINGS ITEM STRING-->
+    <string name="item_1_text_1">Account Settings</string>
+    <string name="item_1_text_2"></string>
+
+    <string name="item_2_text_1">Ship to</string>
+    <string name="item_2_text_2"></string>
+
+    <string name="item_3_text_1">Currency</string>
+    <string name="item_3_text_2">USD</string>
+
+    <string name="item_4_text_1">Language</string>
+    <string name="item_4_text_2">English</string>
+
+    <string name="item_5_text_1">Notification Settings</string>
+    <string name="item_5_text_2"></string>
+
+    <string name="item_6_text_1">Clear App Memory</string>
+    <string name="item_6_text_2"></string>
+
+    <string name="item_7_text_1">Rate Us in Google Play</string>
+    <string name="item_7_text_2"></string>
+
+    <string name="item_8_text_1">Version</string>
+    <string name="item_8_text_2">0.0.1</string>
+
+
+
+</resources>

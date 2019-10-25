@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/list_item_rounded">
+    <ImageView
+        android:id="@+id/favorites_image"
+        android:layout_marginEnd="16dp"
+        android:layout_width="@dimen/item_image_width"
+        android:layout_height="@dimen/item_image_height"
+        android:transitionName="@string/animImage"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/favorites_image"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/favorites_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/priceNameText"
+            android:text="$ price"/>
+
+        <TextView
+            android:id="@+id/favorites_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/priceNameText"
+            android:fontFamily="sans-serif-black"
+            android:text="Product \nName" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
